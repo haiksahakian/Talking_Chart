@@ -9,8 +9,8 @@
 -->
 <h1>Talking Chart</h1>
 <h2>Overview</h2>
-<p>Talking Chart is a JavaScript library that provides an audio representation of a chart. It can be used by non-visual users of the internet to summarize a chart's message. 
-<button onclick="alert('hi')">Demo</button>
+<p>Talking Chart is a JavaScript library that provides an audio representation of a chart. It can be used by non-visual users of the internet to summarize a chart's message. Here's a 
+<a href="https://haiksahakian.github.io/Talking_Chart/examples/demo-highcharts.html">demo</a>.
 </p><p>
 The library uses the oscillator features in HTML 5's Web Audio API, which are available in the latest versions of the Chrome, Safari, and Firefox browsers. To use the library, create a TalkingChart object and pass in a JavaScript reference to the chart's data. The library is open source and free to use under the MIT license.</p>
 <h2>Examples</h2>
@@ -38,7 +38,7 @@ var talkingChart = new TalkingChart(talkingChartParameters);
 </pre>
 <h3>More Detailed Examples</h3>
 <ul type="disc">
-  <li><a href="examples/demo-highcharts.html" target="_blank">Integration with HighCharts</a></li>
+  <li><a href="https://haiksahakian.github.io/Talking_Chart/examples/demo-highcharts.html" target="_blank">Integration with HighCharts</a></li>
   <li><a href="examples/script-example.js" target="_blank">Script example of using the configuration parameters below</a></li>
 </ul>
 <h2>Configuration Parameters</h2>
