@@ -1,16 +1,18 @@
+<!--
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>TalkingChart.js</title>
 </head>
-
 <body>
+-->
 <h1>Talking Chart</h1>
 <h2>Overview</h2>
 <p>Talking Chart is a JavaScript library that provides an audio representation of a chart.It can be used by non-visual users of the internet to summarize a chart's message. The library uses the oscillator features in HTML 5's Web Audio API, which are available in the latest versions of the Chrome, Safari, and Firefox browsers. To use the library, create a TalkingChart object and pass in a JavaScript reference to the chart's data. The library is open source and free to use under the MIT license.</p>
 <h2>Examples</h2>
 <h3>Simple Example</h3>
+<!--
 <pre>var talkingChartParameters = {</pre>
 <pre>  containerId: 'talkingChartLocation',</pre>
 <pre>  announcement: 'Press play to hear the chart showing the average daily temperature in your area over the last 12 months',</pre>
@@ -19,6 +21,17 @@
 <pre>  }</pre>
 <pre>};</pre>
 <pre>var talkingChart = new TalkingChart(talkingChartParameters);
+</pre>
+-->
+<pre>
+var talkingChartParameters = {
+  containerId: 'talkingChartLocation',
+  announcement: 'Press play to hear the chart showing the average daily temperature in your area over the last 12 months',
+  voice1: {
+    data: myXmlDataSource.data
+  }
+};
+var talkingChart = new TalkingChart(talkingChartParameters);
 </pre>
 <h3>More Detailed Examples</h3>
 <ul type="disc">
@@ -146,5 +159,7 @@
 <p>The library is provided as-is and is generally not supported, but you can post questions on Github.</p>
 <h2>Developers</h2>
 <p>The library was written by <a href="https://github.com/rd6668">Di Ren</a> and <a href="https://github.com/haiksahakian">Haik Sahakian</a>.</p>
+<!--
 </body>
 </html>
+-->
