@@ -157,7 +157,7 @@ var talkingChart = new TalkingChart(talkingChartParameters);
 <h2>Screen Reader Support</h2>
 <p>Talking Chart has been tested with NV Access's NVDA, Freedom Scientific's Jaws 12.0, and Apple's VoiceOver.</p>
 <h2>License</h2>
-<p>Talking Chart is a free library, under the MIT license. Details <a href="LICENSE.txt">here</a>. Its code is open source and available on Github.</p>
+<p>Talking Chart is a free library, under the MIT license. Details <a href="LICENSE.txt">here</a>. Its code is open source and available <a href="https://github.com/rd6668/Talking_Chart/">on Github</a>.</p>
 <h2>Support</h2>
 <p>The library is provided as-is and is generally not supported, but you can post questions on Github.</p>
 <h2>Developers</h2>
