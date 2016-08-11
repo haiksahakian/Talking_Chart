@@ -26,8 +26,7 @@
 <pre>
 var talkingChartParameters = {
   containerId: 'talkingChartLocation',
-  announcement: 'Press play to hear the chart showing the average daily '
-  + 'temperature in your area over the last 12 months',
+  announcement: 'Press play to hear the chart showing the average daily temperature in your area over the last 12 months',
   voice1: {
     data: myXmlDataSource.data
   }
