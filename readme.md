@@ -9,7 +9,10 @@
 -->
 <h1>Talking Chart</h1>
 <h2>Overview</h2>
-<p>Talking Chart is a JavaScript library that provides an audio representation of a chart. It can be used by non-visual users of the internet to summarize a chart's message. The library uses the oscillator features in HTML 5's Web Audio API, which are available in the latest versions of the Chrome, Safari, and Firefox browsers. To use the library, create a TalkingChart object and pass in a JavaScript reference to the chart's data. The library is open source and free to use under the MIT license.</p>
+<p>Talking Chart is a JavaScript library that provides an audio representation of a chart. It can be used by non-visual users of the internet to summarize a chart's message. 
+<button onclick="alert('hi')">Demo</button>
+</p><p>
+The library uses the oscillator features in HTML 5's Web Audio API, which are available in the latest versions of the Chrome, Safari, and Firefox browsers. To use the library, create a TalkingChart object and pass in a JavaScript reference to the chart's data. The library is open source and free to use under the MIT license.</p>
 <h2>Examples</h2>
 <h3>Simple Example</h3>
 <!--
